@@ -4,7 +4,31 @@
 
 All REST APIs (GET, POST, PATCH, DELETE)
 Start server inside the project root directory
-`go run main.go`
+
+Create `src/github.com/kayceeDev` folder structure inside your GOPATH. for me it is `/home/ekene/go/src/github.com/kayceeDev`
+ where `ekene` is the username for my linux machine.
+
+
+```
+cd /home/ekene/go/src/github.com/kayceeDev
+```
+```bash
+git clone project_url
+```
+Remember to replace project_url
+
+```
+go mod tidy
+```
+```
+cd cloned_project_folder
+```
+
+lastly:
+
+```bash
+go run main.go
+```
 
 The application handles the following 5 operations for customers in the "database":
 > 
