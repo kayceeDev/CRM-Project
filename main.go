@@ -10,7 +10,7 @@ import (
 
 func main (){
 	filename := "customers.json"
-	const PORT = 3000
+	const PORT = 8080
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/", services.HomeLink)
 	router.HandleFunc("/customers", services.AddCustomer(filename)).Methods("POST")
