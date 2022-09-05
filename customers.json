@@ -1,0 +1,50 @@
+[
+{
+"id": "0",
+"name": "John Doe",
+"role": "Software Developer 53",
+"email": "mockEmail@anymail.com",
+"phone": 5550199,
+"contacted": true
+},
+{
+"id": "3",
+"name": "John Doe",
+"role": "Software Developer 46",
+"email": "mockEmail@anymail.com",
+"phone": 5550199,
+"contacted": true
+},
+{
+"id": "4",
+"name": "Example Name",
+"role": "Example Role",
+"email": "Example Email",
+"phone": 5550199,
+"contacted": true
+},
+{
+"id": "5",
+"name": "Example Name",
+"role": "Example Role",
+"email": "Example Email",
+"phone": 5550199,
+"contacted": true
+},
+{
+"id": "6",
+"name": "Example Name",
+"role": "Example Role",
+"email": "Example Email",
+"phone": 5550199,
+"contacted": true
+},
+{
+"id": "6",
+"name": "Example Name",
+"role": "Example Role",
+"email": "Example Email",
+"phone": 5550199,
+"contacted": true
+}
+]
