@@ -18,12 +18,14 @@ git clone project_url
 Remember to replace project_url
 
 ```
-go mod tidy
-```
-```
 cd cloned_project_folder
 ```
-
+```
+go install
+```
+```
+go mod tidy
+```
 lastly:
 
 ```bash
