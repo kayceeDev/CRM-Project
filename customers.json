@@ -1,50 +1,58 @@
 [
-{
-"id": "0",
-"name": "John Doe",
-"role": "Software Developer 53",
-"email": "mockEmail@anymail.com",
-"phone": 5550199,
-"contacted": true
-},
-{
-"id": "3",
-"name": "John Doe",
-"role": "Software Developer 46",
-"email": "mockEmail@anymail.com",
-"phone": 5550199,
-"contacted": true
-},
-{
-"id": "4",
-"name": "Example Name",
-"role": "Example Role",
-"email": "Example Email",
-"phone": 5550199,
-"contacted": true
-},
-{
-"id": "5",
-"name": "Example Name",
-"role": "Example Role",
-"email": "Example Email",
-"phone": 5550199,
-"contacted": true
-},
-{
-"id": "6",
-"name": "Example Name",
-"role": "Example Role",
-"email": "Example Email",
-"phone": 5550199,
-"contacted": true
-},
-{
-"id": "6",
-"name": "Example Name",
-"role": "Example Role",
-"email": "Example Email",
-"phone": 5550199,
-"contacted": true
-}
-]
+ {
+ "id": "0",
+ "name": "John Doe",
+ "role": "Software Developer 53",
+ "email": "mockEmail@anymail.com",
+ "phone": 5550199,
+ "contacted": true
+ },
+ {
+ "id": "3",
+ "name": "John Doe",
+ "role": "Software Developer 46",
+ "email": "mockEmail@anymail.com",
+ "phone": 5550199,
+ "contacted": true
+ },
+ {
+ "id": "4",
+ "name": "Example Name",
+ "role": "Example Role",
+ "email": "Example Email",
+ "phone": 5550199,
+ "contacted": true
+ },
+ {
+ "id": "5",
+ "name": "Example Name",
+ "role": "Example Role",
+ "email": "Example Email",
+ "phone": 5550199,
+ "contacted": true
+ },
+ {
+ "id": "6",
+ "name": "Example Name",
+ "role": "Example Role",
+ "email": "Example Email",
+ "phone": 5550199,
+ "contacted": true
+ },
+ {
+ "id": "f50e2aee-2bb2-462d-a69b-6ac84637fe2c",
+ "name": "Example Name",
+ "role": "Example Role",
+ "email": "Example Email",
+ "phone": 5550199,
+ "contacted": false
+ },
+ {
+ "id": "8e43ba43-ad70-4c5c-91d6-b485662459c9",
+ "name": "Example Name",
+ "role": "Example Role",
+ "email": "Example Email",
+ "phone": 5550199,
+ "contacted": true
+ }
+ ]

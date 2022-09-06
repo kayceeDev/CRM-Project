@@ -5,11 +5,13 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
-	"strconv"
+	
 
 	"github.com/go-playground/validator/v10"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
+	"github.com/google/uuid"
+	
 )
 
 type Customer struct {
@@ -23,15 +25,15 @@ type Customer struct {
 
 type Customers []Customer
 
-func HomeLink(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome home!")
-}
+// func HomeLink(w http.ResponseWriter, r *http.Request) {
+// 	w.Header().Set("Content-Type", "application/json")
+// 	http.StripPrefix("/",http.FileServer(http.Dir("static")))
+// }
 
 func AddCustomer(filename string) http.HandlerFunc {
 	data := GetData(filename)
 	return func(w http.ResponseWriter, r *http.Request) {
 		var newCustomer Customer
-		var id int
 		reqBody, err := ioutil.ReadAll(r.Body)
 		if err != nil {
 			fmt.
@@ -49,10 +51,8 @@ func AddCustomer(filename string) http.HandlerFunc {
 			http.Error(w, "failed to validate struct"+err.Error(), 400)
 			return
 		}
-		if len(data) > 0 {
-			id = len(data) + 1
-		}
-		newCustomer.ID = strconv.Itoa(id)
+		id := (uuid.New()).String()
+		newCustomer.ID = id
 		data = append(data, newCustomer)
 		dataBytes, err := json.MarshalIndent(data, "", "")
 		if err != nil {
